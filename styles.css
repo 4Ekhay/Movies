@@ -109,3 +109,13 @@ button{
 #final{
     padding-top: 30px;
 }
+@media (max-width:1023px) {
+    .images{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .buttons-c{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
